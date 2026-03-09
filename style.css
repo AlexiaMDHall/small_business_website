@@ -2,14 +2,36 @@ h1 {
     font-family: 'Lucida Sans';
 }
 body {
-    background-color: rgba(250, 227, 94, 0.879);
+    background-color: rgb(228,239,247);
+}
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+.navlinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 20px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.navlinks a:hover {
+    background-color: rgba(155, 132, 3, 0.879);
+    color: #2c2c2c;
+}
 ul {
 color: black;
 }
 header{
-    background-color: rgb(228,239,247);
+    background-color: rgba(250, 227, 94, 0.879);
     padding: 20px;
     display:flexbox;
 }
@@ -23,11 +45,12 @@ header{
 }
 
 .service-container {
-  background-color: rgb(228,239,247);
-  justify-content: space-between; /* Evenly spaces the 3 divs */
-  gap: 20px; /* Space between items */
+  background-color: rgba(250, 227, 94, 0.879);
+  justify-content: center; 
+  gap: 20px; 
   padding: 20px;
   display:flex
+  
 }
 .div {
   background-color: #070101;
@@ -35,3 +58,22 @@ header{
   padding: 20px;
   font-size: 30px;
 }
+footer {
+    background-color: rgba(250, 227, 94, 0.879);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+button:hover {
+    background-color: rgba(250, 227, 94, 0.879);
+}
+.service {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
