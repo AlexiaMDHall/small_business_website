@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="cc_7.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Lemonade Infusion</title>
 </head>
 <body>
    <header>
-<h1 id="main-header" >Lemonade Infusion </h1>
+<h1 id="cta" >Lemonade Infusion </h1>
 <nav>
     <a href="#">Home</a>
     <a href="http://" >Servies</a>
@@ -16,16 +17,15 @@
 </nav>
 </header>
 <main>
-    <section>
-        <div>
-    <h2>About us</h2>
-    <p>Lemonade infusin is a business thhat serves lemonade with a twist
+    <section class = "service-container">
+        <div class = "service"> 
+    <h2 id="cta">About us </h2>
+    <p>Lemonade infusion is a business thhat serves lemonade with a twist
         by mixing different flavors to create your own personal lemonade 
         or any of our personal curated ones that will fit your taste.
     </p>
     </div>
-    </section>
-    <div>
+    <div class = "service">
 <h2>Flavors</h2>
 <p>
     Below there are the flavors you can mix and match to make your perfect drink.
@@ -38,8 +38,8 @@
     </ul>
 </p>
     </div>
-
-    <div>
+ </div>
+    <div class="service">
         <h2>Add-ons</h2>
         <p>You can add on anything to your lemonade from the list below
             for an extra charge.
@@ -49,6 +49,19 @@
             </ul>
         </p>
     </div>
+    </section>
+
+   <section>
+            <input id="ctaInput" type="text">
+            <button id="ctaButton">
+                Update Headline
+            </button>
+        </section>
+        <footer>
+            <p>
+                alexiahall14@gmail.com | 813-123-5678
+            </p>
+        </footer>
 </main>
 </body>
 </html>

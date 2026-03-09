@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Lucida Sans';
+}
+body {
+    background-color: rgba(250, 227, 94, 0.879);
+}
+
+ul {
+color: black;
+}
+header{
+    background-color: rgb(228,239,247);
+    padding: 20px;
+    display:flexbox;
+}
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+
+.service-container {
+  background-color: rgb(228,239,247);
+  justify-content: space-between; /* Evenly spaces the 3 divs */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  display:flex
+}
+.div {
+  background-color: #070101;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
